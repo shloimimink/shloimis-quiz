@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shloimi's quiz</title>
+    <link href="style.css" rel="stylesheet" >
+    <link href="http//fonts.googleapis.com/css?family=lato" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+
+<h1>This is Shloimi's quiz!</h1>
+
+
+
+<form id="quiz" name = "quiz" >
+
+
+<p>What is the capital of Belgium ?</p>
+  <input id="textbox" type="text" name="question1">
+
+  <p>What is the capital of Italy ?</p>
+  <input type="radio" id="mc" name="question2" value="Rome"> Rome<br>
+  <input type="radio" id="mc" name="question2" value="Rom"> Rom<br>
+
+  <p>What is the capital of New York ?</p>
+  <input type="radio" id="mc" name="question3" value="Albany"> Albany<br>
+  <input type="radio" id="mc" name="question3" value="All Benny"> All Benny<br>
+
+  <input id="button" type="button" value="I'm finished !" onclick="check();">
+
+
+</form>
+
+<div id="after_submit">
+    <p id="message"></p>
+    <p id="number_correct"></p>
+    <img id="picture">
+</div>
+
+
+</body>
+</html>
